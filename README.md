@@ -13,10 +13,13 @@ npm install @js-omar/node
 ## Usage
 
 ```typescript
-import { Node } from '@js-omar/node';
+import { execute } from '@js-omar/node';
 
-// Default Option
-Node();
+const statement = 'echo "Hello World!"';
+await execute(statement);
+
+const statements = ['sleep 1', 'echo "Hello World!"'];
+await execute(statements);
 ```
 
 ## Development
