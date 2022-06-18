@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "words": [
+    "commitlint",
+    "Elsayed",
+    "parens",
+    "postversion",
+    "prebuild",
+    "preversion",
+    "tailwindcss",
+    "node"
+  ],
+  "language": "en",
+  "ignoreRegExpList": ["/[ء-ي]+/"],
+  "ignorePaths": ["node_modules", "gitignore", "lib"],
+  "files": ["**"]
+}
