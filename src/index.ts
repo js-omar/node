@@ -1,1 +1,1 @@
-export { minus, sum } from './math';
+export { execute } from './execute';
